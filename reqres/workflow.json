@@ -26,6 +26,6 @@
             }
         }
     },
-    "kind": "Stateful"
+    "kind": "Stateful",
     "parameters": {}
 }
