@@ -4,4 +4,4 @@ ENV AzureWebJobsStorage DefaultEndpointsProtocol=https;AccountName=deliblob;Acco
 
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot \ AzureFunctionsJobHost__Logging__Console__IsEnabled=true
 
-COPY ./bin/Release/netcoreapp3.1/publish/ /home/site/wwwroot
+COPY . /home/site/wwwroot
