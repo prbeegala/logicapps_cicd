@@ -37,5 +37,5 @@ jobs:
       run: |
         # If your function app project is not located in your repository's root
         # Please change the path to your directory for docker build
-        docker build . -t derek1ee/workflowapp:v1
-        docker push derek1ee/workflowapp:v1
+        docker build . -t derek1ee/workflowapp:v0.1
+        docker push derek1ee/workflowapp:v0.1
