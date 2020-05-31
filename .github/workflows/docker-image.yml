@@ -6,7 +6,7 @@
 # 5. Add this yaml file to your project's .github/workflows/
 # 6. Push your local project to your GitHub Repository
 
-name: Linux_Container_Workflow
+name: docker
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
     - name: 'Docker Login'
       uses: azure/docker-login@v1
       with:
-        login-server: contoso.azurecr.io
+        login-server: docker.io
         username: ${{ secrets.REGISTRY_USERNAME }}
         password: ${{ secrets.REGISTRY_PASSWORD }}
 
